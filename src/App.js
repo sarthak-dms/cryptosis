@@ -8,18 +8,18 @@ import CoinDetails from "./components/CoinDetails/CoinDetails"
 function App() {
   return (
     <div className="App">
-      
-      <Header/>
-
       <Router>
+        
+        <Header/>
+
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/coins" element={<Coins/>} />
           <Route path="/exchanges" element={<Exchanges/>} />
           <Route path="/coin/:id" element={<CoinDetails/>} />
         </Routes>
+        
       </Router>
-
     </div>
   );
 }

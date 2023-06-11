@@ -1,14 +1,18 @@
 import React from 'react';
 import App from './App';
-import { ChakraProvider } from '@chakra-ui/react';
+import ReactDOM from 'react-dom/client';
+import { ChakraProvider,theme } from '@chakra-ui/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <ChakraProvider>
+  <React.Fragment>
+    <ChakraProvider theme={theme}>
       
       <App />
       
     </ChakraProvider>
-  </React.StrictMode>
+  </React.Fragment>
 );
+
+
+export default server="https://api.coingecko.com/api/v3";
