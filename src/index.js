@@ -14,5 +14,4 @@ root.render(
   </React.Fragment>
 );
 
-
-export default server="https://api.coingecko.com/api/v3";
+export const server = `https://api.coingecko.com/api/v3`;
