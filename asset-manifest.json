@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/cryptosis/static/js/main.30dead8b.js",
+    "index.html": "/cryptosis/index.html",
+    "main.30dead8b.js.map": "/cryptosis/static/js/main.30dead8b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.30dead8b.js"
+  ]
+}
