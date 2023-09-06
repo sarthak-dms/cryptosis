@@ -98,8 +98,4 @@ const CoinCards = ({id,name,img,price,symbol,currencySymbol="₹"}) =>(
   
 )
 
-
-
-
-
 export default Coins
